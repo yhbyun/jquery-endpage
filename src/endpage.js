@@ -1,10 +1,10 @@
 ;(function ($, window, document, undefined) {
-    "use strict";
+    'use strict';
 
     var defaults = {
-            animation: "fade",
-            from: "50%",
-            to: "110%"
+            animation: 'fade',
+            from: '50%',
+            to: '110%'
         },
         $window = $(window),
         $document = $(document),
@@ -18,8 +18,8 @@
         this.settings = $.extend( {}, defaults, options );
         this._defaults = defaults;
         this._name = 'EndPage';
-        this._fromY = "";
-        this._toY = "";
+        this._fromY = '';
+        this._toY = '';
         this._onAnimate = false;
         this.init();
     }
